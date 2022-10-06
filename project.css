@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.name {
+  margin-left: 200px;
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.field {
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 26px;
+}
+.icons {
+  /* margin-left: 320px; */
+  margin-top: 80px;
+}
+.ab {
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+/* icons */
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects {
+  border: 3px double gray;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: whitesmoke;
+}
+.aboutme,
+.skills,
+.links {
+  border: 3px double gray;
+  background-color: whitesmoke;
+  color: black;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+}
+.skills,
+.links,
+.projects {
+  margin-left: 25px;
+}
+.heading a {
+  text-decoration: none;
+  color: black;
+}
+.projects a {
+  text-decoration: none;
+  color: white;
+}
+.heading a:visited {
+  color: black;
+}
+.heading a:hover,
+a:focus {
+  color: gray;
+}
+/* projects */
+.projects a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.projects a:visited {
+  color: white;
+}
+.projects a:hover,
+a:focus {
+  color: gray;
+}
+
+/* p-1 */
+.p-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-left: 200px;
+  margin-top: 20px;
+  width: 720px;
+  gap: 10px;
+  padding: 5px;
+  border: 3px solid black;
+}
+/* project-1 */
+.block {
+  display: flex;
+  flex-direction: column;
+}
+/* digital card */
+.project1 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  gap: 20px;
+  background-image: url(./image/digital\ clock.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.demo-links {
+  display: flex;
+  flex-direction: column;
+}
+.title,
+.demo,
+.source-code {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+/* demo a */
+.demo a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+.demo a:visited {
+  color: dodgerblue;
+}
+.demo a:hover,
+a:focus {
+  color: rgb(19, 49, 219);
+}
+/* source code a */
+.source-code a {
+  color: dodgerblue;
+  text-decoration: none;
+}
+.source-code a:visited {
+  color: dodgerblue;
+}
+.source-code a:hover,
+a:focus {
+  color: rgb(19, 49, 219);
+}
+.sc {
+  margin-left: 20px;
+}
+
+/* profile card */
+.project2 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  gap: 20px;
+  background-image: url(./image/Profile\ card.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+/* 3-column card */
+.project3 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  gap: 20px;
+  background-image: url(./image/3\ column\ card.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+/* product card */
+.project4 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  gap: 20px;
+  background-image: url(./image/product\ card.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+}
